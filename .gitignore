@@ -12,3 +12,7 @@ wheels/
 .python-version
 
 uv.lock
+
+expense_tracker.log
+
+expenses.db
