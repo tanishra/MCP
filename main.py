@@ -5,11 +5,8 @@ from datetime import datetime
 import csv
 import statistics
 import asyncpg
-from dotenv import load_dotenv
 import asyncio
 import sys
-
-load_dotenv()
 
 # ----------------- CONFIG -----------------
 
