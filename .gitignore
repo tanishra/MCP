@@ -19,3 +19,5 @@ expenses.db
 expense_tracker.log
 expenses_export.csv
 .env
+
+.fastmcp/secrets.toml
