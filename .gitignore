@@ -16,3 +16,6 @@ uv.lock
 expense_tracker.log
 
 expenses.db
+expense_tracker.log
+expenses_export.csv
+.env
