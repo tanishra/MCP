@@ -227,7 +227,7 @@ async def categories():
 async def startup():
     await init_pool()
     await init_db()
-    mcp.run(transport="http", host="0.0.0.0", port=8000)
+    mcp.run(transport="http", host="0.0.0.0", port=8080)
 
 if __name__ == "__main__" and "inspect" not in sys.argv:
     asyncio.run(startup())
