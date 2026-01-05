@@ -12,7 +12,7 @@ import sys
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CATEGORIES_PATH = os.path.join(BASE_DIR, "categories.json")
-LOG_PATH = os.path.join(BASE_DIR, "expense_tracker.log")
+LOG_PATH = "/tmp/expense_tracker.log"
 
 DB_HOST = os.getenv("DB_HOST")
 DB_PORT = os.getenv("DB_PORT", "5432")
